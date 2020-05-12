@@ -2,7 +2,7 @@
 
 # T6: Primeiros passos com MPI
 
-Para este trabalho, você vai precisar instalar OpenMPI, que é uma implementação do padrão MPI. As principais distribuições Linux possuem pacotes para isso (por exemplo, no Ubuntu, instale os pacotes openmpi-bin e libopenmpi-dev).
+Este trabalho/exercício acompanha a introdução a MPI (Message Passing Interface) disponível [nestes slides](https://docs.google.com/presentation/d/1ItSn3EyWDocwVI7_gdz0RwDKPy274nsSRobtcrdV2V0/edit?usp=sharing). Para desenvolvê-lo, você vai precisar instalar OpenMPI, que é uma implementação do padrão MPI. As principais distribuições Linux possuem pacotes para isso (por exemplo, no Ubuntu, instale os pacotes openmpi-bin e libopenmpi-dev).
 
 
 ## Aquecimento
@@ -24,7 +24,7 @@ Para começar, exercite compilação e execução de programas MPI:
 
 ## Parte 1
 
-Implemente um programa MPI que transporte uma mensagem em um pipeline formado por processos de 0 a NP-1 (processo 0 envia para 1, processo 1 envia para 2, ..., processo NP-1 mostra o resultado). A mensagem é um número inteiro que é incrementado antes de ser passado adiante.
+Implemente um programa MPI que transporte uma mensagem em um pipeline formado por processos de 0 a NP-1 (processo 0 envia para 1, processo 1 envia para 2, ..., processo NP-1 mostra o resultado). A mensagem pode ser um número inteiro que é incrementado antes de ser passado adiante.
 
 
 ## Parte 2
